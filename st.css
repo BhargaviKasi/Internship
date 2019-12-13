@@ -1,0 +1,22 @@
+.div{
+    display:flex;
+    justify-content:space-around;
+  }
+  .reg{
+    justify-content:space-between;
+    width:60%;
+  }
+  
+  .login{
+    width:40%;
+    margin-left:80px;
+  }
+  input,select{
+    margin-bottom:12px;
+  }
+  button{
+    height:30px;
+    width:100px;
+    margin-left:120px;
+    background-color:cyan
+  }
