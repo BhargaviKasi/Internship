@@ -1,9 +1,11 @@
-function ValidateEmail(mail) 
+function validate()
 {
- if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myform.mail.value))
-  {
+  var mail=document.myform.email.value;
+  var ex=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+  if (ex.test(mail))
+ {
     return (true)
-  }
-    alert("You have entered an invalid email address!")
-    return (false)
+ }
+  alert("You have entered an invalid email address!")
+  return (false)
 }
